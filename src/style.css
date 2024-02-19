@@ -1,0 +1,3269 @@
+ .root {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  width: 100%;
+}
+
+/* .root   .index {
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+} */
+
+ .div-top-bar-area {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #e7e7e7;
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+ .global-update-on {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 375px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+  width: 439px;
+}
+
+ .text-wrapper {
+  color: #666666;
+  font-weight: 500;
+}
+
+ .span {
+  color: #233645;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+ .div-col-lg {
+  height: 30px;
+  left: 960px;
+  position: absolute;
+  top: 15px;
+  width: 600px;
+}
+
+ .list {
+  height: 30px;
+  left: 211px;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+ .item-link-online {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: right;
+  top: -2px;
+  white-space: nowrap;
+  width: 142px;
+}
+
+ .item-link-webmail {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: right;
+  top: -2px;
+  white-space: nowrap;
+  width: 64px;
+}
+
+ .item {
+  border-color: #dddddd;
+  border-left-style: solid;
+  border-left-width: 1px;
+  height: 19px;
+  left: 161px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+
+ .div-social {
+  height: 30px;
+  left: 451px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+ .symbol {
+  color: #233645;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 14.3px;
+  font-weight: 400;
+  height: 15px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 6px;
+  white-space: nowrap;
+  width: 8px;
+}
+
+ .symbol-2 {
+  color: #233645;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 15px;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 6px;
+  white-space: nowrap;
+  width: 15px;
+}
+
+ .symbol-3 {
+  color: #233645;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 15px;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 6px;
+  white-space: nowrap;
+  width: 13px;
+}
+
+ .header-nav {
+  background-color: #ffffff;
+  box-shadow: 0px 8px 25px #0000000a;
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 61px;
+  width: 1920px;
+}
+
+ .navbar {
+  height: 91px;
+  left: 360px;
+  position: relative;
+  width: 1200px;
+}
+
+ .overlap-group {
+  height: 56px;
+  left: 1048px;
+  position: absolute;
+  top: 16px;
+  width: 138px;
+}
+
+ .list-item-emergency {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 76px;
+}
+
+ .list-item-strong {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 900;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 138px;
+}
+
+ .symbol-4 {
+  color: #1ebeb6;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 46px;
+  font-weight: 400;
+  height: 46px;
+  left: 987px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  top: 24px;
+  white-space: nowrap;
+  width: 46px;
+}
+
+ .link-logo-png {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/link---logo-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 15px;
+  position: absolute;
+  top: 20px;
+  width: 165px;
+}
+
+ .list-item-link-home {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 352px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 43px;
+}
+
+ .symbol-5 {
+  color: #333333;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  left: 400px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+ .list-item-link-pages {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 439px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 47px;
+}
+
+ .symbol-6 {
+  color: #333333;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  left: 490px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+ .list-item-link {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 529px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 106px;
+}
+
+ .symbol-7 {
+  color: #333333;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  left: 640px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+ .list-item-link-2 {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 679px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 70px;
+}
+
+ .symbol-8 {
+  color: #333333;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  left: 754px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+ .list-item-link-blog {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 793px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 39px;
+}
+
+ .symbol-9 {
+  color: #333333;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 20px;
+  left: 836px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 9px;
+}
+
+ .list-item-link-3 {
+  color: #333333;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 600;
+  height: 20px;
+  left: 875px;
+  letter-spacing: 0.78px;
+  line-height: 20px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+  width: 70px;
+}
+
+ .div-carousel-item {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/div-slider-thumb.png);
+  background-size: 100% 100%;
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 152px;
+  width: 1920px;
+}
+
+ .div-box-cell {
+  background-color: #ffffff01;
+  box-shadow: 0px 8px 16px #00000026;
+  height: 1080px;
+}
+
+ .overlap {
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+ .after {
+  background-color: #000000;
+  height: 1080px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+ .symbol-10 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 75px;
+  font-weight: 400;
+  height: 30px;
+  left: 325px;
+  letter-spacing: 0;
+  line-height: 30px;
+  opacity: 0.2;
+  position: absolute;
+  top: 524px;
+  white-space: nowrap;
+  width: 350px;
+}
+
+ .heading-good {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 375px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 382px;
+  white-space: nowrap;
+  width: 272px;
+}
+
+ .heading-meet-the {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  height: 160px;
+  left: 375px;
+  letter-spacing: 0;
+  line-height: 80px;
+  position: absolute;
+  top: 433px;
+  width: 519px;
+}
+
+ .text-wrapper-2 {
+  font-weight: 300;
+}
+
+ .text-wrapper-3 {
+  font-weight: 900;
+}
+
+ .link {
+  border-radius: 5px;
+  height: 62px;
+  left: 375px;
+  overflow: hidden;
+  position: absolute;
+  top: 635px;
+  width: 210px;
+}
+
+ .overlap-group-2 {
+  background: linear-gradient(180deg, rgb(30, 190, 182) 0%, rgb(0, 130, 124) 100%);
+  box-shadow: inset 0px 0px 1px 1px #1ebeb6, 0px 0px 10px #ff880080;
+  height: 60px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 208px;
+}
+
+ .i-fas {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  top: 15px;
+  width: 30px;
+}
+
+ .symbol-11 {
+  color: #1ebeb6;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 30px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+ .discover-more {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 123px;
+}
+
+ .div-col-lg-2 {
+  height: 414px;
+  left: 360px;
+  position: absolute;
+  top: 3799px;
+  width: 700px;
+}
+
+ .heading-how-to-get {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 77px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: -2px;
+  width: 336px;
+}
+
+ .badies-she-basket {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 60px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 100px;
+  width: 596px;
+}
+
+ .div-item {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #1ebeb6;
+  height: 212px;
+  left: 15px;
+  position: absolute;
+  top: 202px;
+  width: 187px;
+}
+
+ .icon {
+  height: 55px;
+  left: 66px;
+  position: absolute;
+  top: 37px;
+  width: 55px;
+}
+
+ .overlap-group-3 {
+  height: 52px;
+  left: 37px;
+  position: absolute;
+  top: 115px;
+  width: 114px;
+}
+
+ .heading-make {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 52px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 48px;
+}
+
+ .heading {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+ .div-item-2 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #1ebeb6;
+  height: 212px;
+  left: 232px;
+  position: absolute;
+  top: 202px;
+  width: 187px;
+}
+
+ .heading-select-a {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 43px;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 73px;
+}
+
+ .div-item-3 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #1ebeb6;
+  height: 212px;
+  left: 448px;
+  position: absolute;
+  top: 202px;
+  width: 187px;
+}
+
+ .heading-confirm {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 43px;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 112px;
+}
+
+ .overlap-2 {
+  height: 812px;
+  left: -15px;
+  position: absolute;
+  top: 4395px;
+  width: 1680px;
+}
+
+ .img {
+  height: 812px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 975px;
+}
+
+ .after-2 {
+  height: 300px;
+  left: 1380px;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+
+ .div-info-box-paints {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-color: #1ebeb6;
+  box-shadow: 0px 10px 60px #00000014;
+  height: 572px;
+  left: 855px;
+  position: absolute;
+  top: 120px;
+  width: 705px;
+}
+
+ .heading-our {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 77px;
+  left: 905px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 248px;
+  width: 268px;
+}
+
+ .respect-forming {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 905px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 350px;
+  width: 596px;
+}
+
+ .do-unpleasing {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 60px;
+  left: 905px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 455px;
+  width: 540px;
+}
+
+ .heading-at-our {
+  color: #1ebeb6;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 24px;
+  left: 905px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 200px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+ .overlap-wrapper {
+  border-radius: 5px;
+  height: 62px;
+  left: 905px;
+  overflow: hidden;
+  position: absolute;
+  top: 547px;
+  width: 190px;
+}
+
+ .overlap-3 {
+  background: linear-gradient(180deg, rgb(30, 190, 182) 0%, rgb(0, 130, 124) 100%);
+  box-shadow: inset 0px 0px 1px 1px #1ebeb6, 0px 0px 10px #ff880080;
+  height: 60px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 188px;
+}
+
+ .doctor-lists {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 104px;
+}
+
+ .div-doctors-area {
+  background-color: #f7f7f7;
+  height: 1245px;
+  left: 0;
+  position: absolute;
+  top: 5207px;
+  width: 1920px;
+}
+
+ .div-site-heading {
+  height: 180px;
+  left: 575px;
+  position: absolute;
+  top: 115px;
+  width: 770px;
+}
+
+ .heading-doctors {
+  color: #1ebeb6;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 109px;
+}
+
+ .while-mirth-large-of {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 60px;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 118px;
+  width: 643px;
+}
+
+ .heading-2 {
+  background-color: #1ebeb6;
+  height: 2px;
+  left: 360px;
+  position: absolute;
+  top: 98px;
+  width: 40px;
+}
+
+ .heading-meet-our {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 38px;
+  left: 241px;
+  letter-spacing: 1px;
+  line-height: 38.4px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: 288px;
+}
+
+ .heading-3 {
+  background-color: #1ebeb6;
+  height: 2px;
+  left: 405px;
+  position: absolute;
+  top: 98px;
+  width: 5px;
+}
+
+ .overlap-4 {
+  height: 337px;
+  left: 375px;
+  position: absolute;
+  top: 355px;
+  width: 350px;
+}
+
+ .list-item-link-4 {
+  background-color: #1ebeb6;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+ .img-2 {
+  height: 45px;
+  left: 15px;
+  position: absolute;
+  top: 20px;
+  width: 50px;
+}
+
+ .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+ .list-item-link-5 {
+  background-color: #1ebeb61a;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 84px;
+  width: 350px;
+}
+
+ .text-wrapper-5 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 113px;
+}
+
+ .list-item-link-6 {
+  background-color: #1ebeb61a;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 168px;
+  width: 350px;
+}
+
+ .text-wrapper-6 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+ .list-item-link-7 {
+  background-color: #1ebeb61a;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 252px;
+  width: 350px;
+}
+
+ .text-wrapper-7 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 30px;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 131px;
+}
+
+ .div-testimonials {
+  height: 665px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 6452px;
+  width: 1920px;
+}
+
+ .overlap-5 {
+  background-color: #1ebeb6;
+  height: 1049px;
+  left: -1570px;
+  position: absolute;
+  top: -192px;
+  width: 2450px;
+}
+
+ .heading-4 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 24px;
+  left: 1960px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 419px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+ .heading-whay {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 77px;
+  left: 1960px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 467px;
+  width: 302px;
+}
+
+ .link-2 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 54px;
+  left: 1960px;
+  overflow: hidden;
+  position: absolute;
+  top: 575px;
+  width: 147px;
+}
+
+ .symbol-wrapper {
+  background-color: #1ebeb6;
+  border-radius: 15px;
+  height: 30px;
+  left: 27px;
+  position: absolute;
+  top: 12px;
+  width: 30px;
+}
+
+ .symbol-12 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 30px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+ .text-wrapper-8 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 25px;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 59px;
+}
+
+ .symbol-13 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  height: 30px;
+  left: 1960px;
+  letter-spacing: 0;
+  line-height: 30px;
+  opacity: 0.2;
+  position: absolute;
+  top: 389px;
+  white-space: nowrap;
+  width: 120px;
+}
+
+ .div-owl-stage-outer {
+  height: 405px;
+  left: 930px;
+  overflow: hidden;
+  position: absolute;
+  top: 105px;
+  width: 1005px;
+}
+
+ .div-item-4 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 375px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 372px;
+}
+
+ .element-jpg {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/1-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  left: 146px;
+  position: absolute;
+  top: 50px;
+  width: 80px;
+}
+
+ .heading-jonathom {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 1px;
+  left: 116px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 159px;
+  white-space: nowrap;
+  width: 141px;
+}
+
+ .patient-of-surgery {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 15px;
+  left: 122px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 188px;
+  white-space: nowrap;
+  width: 130px;
+}
+
+ .text-wrapper-9 {
+  color: #666666;
+}
+
+ .text-wrapper-10 {
+  color: #1ebeb6;
+  font-weight: 900;
+}
+
+ .totally-dearest {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  width: 307px;
+}
+
+ .div-item-5 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 375px;
+  left: 418px;
+  position: absolute;
+  top: 15px;
+  width: 372px;
+}
+
+ .element-jpg-2 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/2-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  left: 146px;
+  position: absolute;
+  top: 50px;
+  width: 80px;
+}
+
+ .div-item-6 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 375px;
+  left: 820px;
+  position: absolute;
+  top: 15px;
+  width: 372px;
+}
+
+ .element-jpg-3 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/3-jpg-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 40px;
+  height: 80px;
+  left: 146px;
+  position: absolute;
+  top: 50px;
+  width: 80px;
+}
+
+ .heading-jonathom-2 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 24px;
+  left: 116px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 159px;
+  white-space: nowrap;
+  width: 141px;
+}
+
+ .patient-of {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 30px;
+  left: 122px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 188px;
+  white-space: nowrap;
+  width: 72px;
+}
+
+ .after-wrapper {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 10px;
+  height: 20px;
+  left: 1407px;
+  position: absolute;
+  top: 525px;
+  width: 20px;
+}
+
+ .after-3 {
+  background-color: #1ebeb6;
+  border-radius: 2.5px;
+  height: 5px;
+  left: 8px;
+  position: relative;
+  top: 8px;
+  width: 5px;
+}
+
+ .span-2 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 10px;
+  height: 20px;
+  left: 1437px;
+  position: absolute;
+  top: 525px;
+  width: 20px;
+}
+
+ .div-blog-area {
+  background-color: #f7f7f7;
+  height: 1000px;
+  left: 0;
+  position: absolute;
+  top: 7117px;
+  width: 1920px;
+}
+
+ .heading-news {
+  color: #1ebeb6;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 352px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+ .heading-latest {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 38px;
+  left: 293px;
+  letter-spacing: 1px;
+  line-height: 38.4px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: 185px;
+}
+
+ .div-item-7 {
+  background-color: #ffffff01;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 526px;
+  left: 375px;
+  position: absolute;
+  top: 355px;
+  width: 370px;
+}
+
+ .div-thumb {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/link---1-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 278px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+ .div-post-date {
+  background-color: #1ebeb6;
+  border-radius: 5px 5px 0px 5px;
+  height: 70px;
+  left: 30px;
+  position: relative;
+  top: 178px;
+  width: 80px;
+}
+
+ .element-jul {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 30px;
+}
+
+ .after-4 {
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(30, 190, 182) 0%) 1;
+  border-right-style: solid;
+  border-right-width: 15px;
+  height: 15px;
+  left: 65px;
+  position: absolute;
+  top: 65px;
+  width: 15px;
+}
+
+ .div-info {
+  background-color: #ffffff;
+  height: 248px;
+  left: 0;
+  position: absolute;
+  top: 278px;
+  width: 370px;
+}
+
+ .list-item-link-8 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 47px;
+}
+
+ .list-item {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+  width: 5px;
+}
+
+ .list-item-link-9 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+ .heading-link {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 57px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: absolute;
+  top: 74px;
+  width: 257px;
+}
+
+ .div-meta {
+  border-color: #e7e7e7;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 66px;
+  left: 30px;
+  position: absolute;
+  top: 152px;
+  width: 310px;
+}
+
+ .list-item-link-jpg {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/list---item---link---5-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 21px;
+  width: 45px;
+}
+
+ .list-item-link-10 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 55px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+ .overlap-group-4 {
+  height: 30px;
+  left: 190px;
+  position: absolute;
+  top: 27px;
+  width: 120px;
+}
+
+ .symbol-14 {
+  color: #1ebeb6;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 17px;
+}
+
+ .list-item-link-11 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 103px;
+}
+
+ .div-item-8 {
+  background-color: #ffffff01;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 526px;
+  left: 775px;
+  position: absolute;
+  top: 355px;
+  width: 370px;
+}
+
+ .div-post-date-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/link---2-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 278px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+ .element-aug {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 36px;
+}
+
+ .list-item-link-test {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 31px;
+}
+
+ .list-item-2 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+  width: 5px;
+}
+
+ .list-item-link-12 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  left: 70px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 49px;
+}
+
+ .p {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 57px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: absolute;
+  top: 74px;
+  width: 308px;
+}
+
+ .list-item-link-jpg-2 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/list---item---link---4-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 21px;
+  width: 45px;
+}
+
+ .overlap-group-5 {
+  height: 30px;
+  left: 188px;
+  position: absolute;
+  top: 27px;
+  width: 123px;
+}
+
+ .list-item-link-13 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 106px;
+}
+
+ .div-item-9 {
+  background-color: #ffffff01;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 526px;
+  left: 1175px;
+  position: absolute;
+  top: 355px;
+  width: 370px;
+}
+
+ .div-wrapper {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/link---3-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 278px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+ .element-dec {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 33px;
+}
+
+ .list-item-link-14 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  white-space: nowrap;
+  width: 51px;
+}
+
+ .heading-link-2 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 62px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: absolute;
+  top: 74px;
+  width: 275px;
+}
+
+ .list-item-link-jpg-3 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/3-jpg-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 22.5px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 21px;
+  width: 45px;
+}
+
+ .overlap-group-6 {
+  height: 30px;
+  left: 188px;
+  position: absolute;
+  top: 27px;
+  width: 122px;
+}
+
+ .list-item-link-15 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 105px;
+}
+
+ .footer {
+  background-color: #001d4c;
+  height: 664px;
+  left: 0;
+  position: absolute;
+  top: 8826px;
+  width: 1920px;
+}
+
+ .logo-light-png {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/logo-light-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 375px;
+  position: absolute;
+  top: 120px;
+  width: 165px;
+}
+
+ .required-honoured {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 375px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 198px;
+  width: 365px;
+}
+
+ .list-item-3 {
+  height: 30px;
+  left: 375px;
+  position: absolute;
+  top: 320px;
+  width: 30px;
+}
+
+ .list-item-heading {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  top: 319px;
+  white-space: nowrap;
+  width: 52px;
+}
+
+ .list-item-support {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 350px;
+  white-space: nowrap;
+  width: 207px;
+}
+
+ .list-item-4 {
+  height: 30px;
+  left: 375px;
+  position: absolute;
+  top: 412px;
+  width: 30px;
+}
+
+ .list-item-heading-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  top: 410px;
+  white-space: nowrap;
+  width: 61px;
+}
+
+ .list-item-5 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 425px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 442px;
+  white-space: nowrap;
+  width: 142px;
+}
+
+ .heading-department {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  height: 26px;
+  left: 775px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 119px;
+  white-space: nowrap;
+  width: 130px;
+}
+
+ .list-item-6 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 188px;
+  width: 6px;
+}
+
+ .list-item-link-16 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 175px;
+  white-space: nowrap;
+  width: 137px;
+}
+
+ .list-item-7 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 233px;
+  width: 6px;
+}
+
+ .list-item-link-17 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 220px;
+  white-space: nowrap;
+  width: 85px;
+}
+
+ .list-item-8 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 278px;
+  width: 6px;
+}
+
+ .list-item-link-eye {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 265px;
+  white-space: nowrap;
+  width: 106px;
+}
+
+ .list-item-9 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 323px;
+  width: 6px;
+}
+
+ .list-item-link-18 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+  width: 109px;
+}
+
+ .list-item-10 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 368px;
+  width: 6px;
+}
+
+ .list-item-link-19 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 355px;
+  white-space: nowrap;
+  width: 101px;
+}
+
+ .list-item-11 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 775px;
+  position: absolute;
+  top: 413px;
+  width: 6px;
+}
+
+ .list-item-link-x-ray {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 795px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 400px;
+  white-space: nowrap;
+  width: 40px;
+}
+
+ .heading-usefull {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  height: 26px;
+  left: 975px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 119px;
+  white-space: nowrap;
+  width: 138px;
+}
+
+ .list-item-12 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 188px;
+  width: 6px;
+}
+
+ .list-item-link-20 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 175px;
+  white-space: nowrap;
+  width: 82px;
+}
+
+ .list-item-13 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 233px;
+  width: 6px;
+}
+
+ .list-item-link-21 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 220px;
+  white-space: nowrap;
+  width: 82px;
+}
+
+ .list-item-14 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 278px;
+  width: 6px;
+}
+
+ .list-item-link-blog-2 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 265px;
+  white-space: nowrap;
+  width: 33px;
+}
+
+ .list-item-15 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 323px;
+  width: 6px;
+}
+
+ .list-item-link-22 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+  width: 52px;
+}
+
+ .list-item-16 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 368px;
+  width: 6px;
+}
+
+ .list-item-link-about {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 355px;
+  white-space: nowrap;
+  width: 68px;
+}
+
+ .list-item-17 {
+  background-color: #ffffff66;
+  border-radius: 3px;
+  height: 6px;
+  left: 975px;
+  position: absolute;
+  top: 413px;
+  width: 6px;
+}
+
+ .list-item-link-23 {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 995px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 400px;
+  white-space: nowrap;
+  width: 58px;
+}
+
+ .div-f-item {
+  background-color: #ffffff0d;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #1ebeb6;
+  height: 316px;
+  left: 1175px;
+  position: absolute;
+  top: 120px;
+  width: 370px;
+}
+
+ .list-item-strong-USA {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 900;
+  height: 30px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 35px;
+  white-space: nowrap;
+  width: 111px;
+}
+
+ .list-item-bryan {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 106px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 70px;
+  width: 223px;
+}
+
+ .list-item-strong-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 900;
+  height: 30px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 180px;
+  white-space: nowrap;
+  width: 135px;
+}
+
+ .list-item-kia {
+  color: #96aac1;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 60px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 214px;
+  width: 293px;
+}
+
+ .div-footer-bottom {
+  background-color: #ffffff08;
+  border-color: #ffffff1a;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 593px;
+  width: 1920px;
+}
+
+ .copyright {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 375px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+  width: 345px;
+}
+
+ .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+ .text-wrapper-12 {
+  font-weight: 600;
+}
+
+ .symbol-15 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  height: 15px;
+  left: 1248px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 1px;
+}
+
+ .list-item-link-24 {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 1260px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  white-space: nowrap;
+  width: 1px;
+}
+
+ .text-wrapper-13 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+ .text-wrapper-14 {
+  color: #f8f9fa;
+}
+
+ .symbol-16 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  height: 15px;
+  left: 1359px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 1px;
+}
+
+ .list-item-link-25 {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 1379px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  white-space: nowrap;
+  width: 1px;
+}
+
+ .symbol-17 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  height: 15px;
+  left: 1459px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  white-space: nowrap;
+  width: 1px;
+}
+
+ .list-item-link-26 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 1481px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: right;
+  top: 20px;
+  white-space: nowrap;
+  width: 65px;
+}
+
+ .heading-emergency {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 455px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 1495px;
+  white-space: nowrap;
+  width: 180px;
+}
+
+ .few-preferred {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 394px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 1546px;
+  width: 302px;
+}
+
+ .list-item-18 {
+  border-color: #cccccc;
+  border-top-style: dashed;
+  border-top-width: 1px;
+  height: 46px;
+  left: 375px;
+  position: absolute;
+  top: 1653px;
+  width: 340px;
+}
+
+ .text-wrapper-15 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+  width: 45px;
+}
+
+ .text-wrapper-16 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  left: 171px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+  width: 127px;
+}
+
+ .overlap-6 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/--after-2.svg);
+  background-size: 100% 100%;
+  height: 120px;
+  left: 485px;
+  position: absolute;
+  top: 1346px;
+  width: 120px;
+}
+
+ .symbol-18 {
+  color: #1ebeb6;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 100px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+ .overlap-7 {
+  height: 351px;
+  left: 775px;
+  position: absolute;
+  top: 1352px;
+  width: 370px;
+}
+
+ .before {
+  background-color: #1ebeb6;
+  border-radius: 175px;
+  height: 350px;
+  left: 10px;
+  opacity: 0.1;
+  position: absolute;
+  top: 1px;
+  width: 350px;
+}
+
+ .after-5 {
+  background-color: #1ebeb6;
+  border-radius: 150px;
+  height: 300px;
+  left: 35px;
+  position: absolute;
+  top: 26px;
+  width: 300px;
+}
+
+ .element-png {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/1-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 351px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+ .heading-cancer {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 1309px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 1495px;
+  white-space: nowrap;
+  width: 133px;
+}
+
+ .few-preferred-2 {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 1224px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 1546px;
+  width: 302px;
+}
+
+ .list-item-19 {
+  border-color: #cccccc;
+  border-top-style: dashed;
+  border-top-width: 1px;
+  height: 46px;
+  left: 1205px;
+  position: absolute;
+  top: 1653px;
+  width: 340px;
+}
+
+ .overlap-8 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/--after-3.svg);
+  background-size: 100% 100%;
+  height: 120px;
+  left: 1315px;
+  position: absolute;
+  top: 1346px;
+  width: 120px;
+}
+
+ .symbol-19 {
+  color: #1ebeb6;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 100px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 35px;
+}
+
+ .div-about-area {
+  background-color: #f7f7f7;
+  height: 810px;
+  left: 0;
+  position: absolute;
+  top: 1823px;
+  width: 1920px;
+}
+
+ .overlap-9 {
+  height: 690px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 945px;
+}
+
+ .element-png-2 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/1-png-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 445px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 438px;
+}
+
+ .img-mask-group {
+  height: 520px;
+  left: 375px;
+  position: absolute;
+  top: 120px;
+  width: 520px;
+}
+
+ .div-intro-video {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 60px #00000014;
+  height: 199px;
+  left: 495px;
+  position: absolute;
+  top: 491px;
+  width: 450px;
+}
+
+ .div-video {
+  height: 68px;
+  left: 30px;
+  position: absolute;
+  top: 66px;
+  width: 108px;
+}
+
+ .overlap-group-7 {
+  height: 91px;
+  left: 6px;
+  position: relative;
+  top: 1px;
+  width: 68px;
+}
+
+ .link-3 {
+  background-color: #1ebeb6;
+  border-radius: 34px;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+ .symbol-20 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  height: 70px;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: 70px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+  width: 22px;
+}
+
+ .div-content {
+  height: 99px;
+  left: 138px;
+  position: absolute;
+  top: 50px;
+  width: 282px;
+}
+
+ .heading-let-s-see {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 239px;
+}
+
+ .if-your-smile-is-not {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 38px;
+  width: 256px;
+}
+
+ .div-col-lg-3 {
+  height: 570px;
+  left: 960px;
+  position: absolute;
+  top: 120px;
+  width: 600px;
+}
+
+ .heading-has-been {
+  color: #1ebeb6;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 292px;
+}
+
+ .heading-a-great {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 115px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 45px;
+  width: 481px;
+}
+
+ .pursuit-chamber-as {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 120px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 185px;
+  width: 540px;
+}
+
+ .list-item-20 {
+  height: 50px;
+  left: 35px;
+  position: absolute;
+  top: 337px;
+  width: 50px;
+}
+
+ .list-item-heading-3 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  height: 22px;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  top: 352px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+ .list-item-21 {
+  height: 50px;
+  left: 325px;
+  position: absolute;
+  top: 337px;
+  width: 50px;
+}
+
+ .list-item-heading-4 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  height: 22px;
+  left: 395px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  position: absolute;
+  top: 352px;
+  white-space: nowrap;
+  width: 132px;
+}
+
+ .overlap-group-wrapper {
+  border-radius: 5px;
+  height: 62px;
+  left: 35px;
+  overflow: hidden;
+  position: absolute;
+  top: 421px;
+  width: 241px;
+}
+
+ .overlap-group-8 {
+  background: linear-gradient(180deg, rgb(30, 190, 182) 0%, rgb(0, 130, 124) 100%);
+  box-shadow: inset 0px 0px 1px 1px #1ebeb6, 0px 0px 10px #ff880080;
+  height: 60px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 239px;
+}
+
+ .make-appoinment {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 154px;
+}
+
+ .div-department-area {
+  background-color: #f7f7f7;
+  height: 984px;
+  left: 0;
+  position: absolute;
+  top: 2633px;
+  width: 1920px;
+}
+
+ .overlap-10 {
+  height: 1405px;
+  position: relative;
+  top: -301px;
+}
+
+ .element-png-3 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/8-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1405px;
+  left: 0;
+  opacity: 0.08;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+ .div-site-heading-2 {
+  height: 180px;
+  left: 575px;
+  position: absolute;
+  top: 296px;
+  width: 770px;
+}
+
+ .heading-services {
+  color: #1ebeb6;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  height: 26px;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 108px;
+}
+
+ .heading-our-2 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 38px;
+  left: 253px;
+  letter-spacing: 1px;
+  line-height: 38.4px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+ .div-owl-stage-outer-2 {
+  height: 609px;
+  left: 360px;
+  position: absolute;
+  top: 521px;
+  width: 1200px;
+}
+
+ .div-item-10 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 579px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 370px;
+}
+
+ .element-jpg-4 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/1-jpg-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 262px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 350px;
+}
+
+ .after-6 {
+  height: 101px;
+  left: 239px;
+  position: absolute;
+  top: 478px;
+  width: 131px;
+}
+
+ .heading-link-eye {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  height: 26px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 301px;
+  white-space: nowrap;
+  width: 95px;
+}
+
+ .sudden-up-my-excuse {
+  color: #666666;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 90px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 342px;
+  width: 302px;
+}
+
+ .strong-department {
+  color: #232323;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 447px;
+  white-space: nowrap;
+  width: 277px;
+}
+
+ .text-wrapper-17 {
+  color: #232323;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+ .link-4 {
+  background: linear-gradient(180deg, rgb(30, 190, 182) 0%, rgb(0, 130, 124) 100%);
+  border-radius: 22.5px;
+  height: 45px;
+  left: 30px;
+  position: absolute;
+  top: 504px;
+  width: 45px;
+}
+
+ .overlap-group-9 {
+  border-radius: 27px;
+  height: 54px;
+  left: -4px;
+  position: relative;
+  top: -4px;
+  width: 54px;
+}
+
+ .after-7 {
+  background-color: #1ebeb6;
+  border-radius: 27px;
+  height: 54px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+ .symbol-21 {
+  color: #ffffff;
+  font-family: "Font Awesome 5 Free-Solid", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 14px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  white-space: nowrap;
+  width: 13px;
+}
+
+ .div-item-11 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 579px;
+  left: 415px;
+  position: absolute;
+  top: 15px;
+  width: 370px;
+}
+
+ .element-jpg-5 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/2-jpg-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 262px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 350px;
+}
+
+ .heading-link-3 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  height: 26px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 301px;
+  white-space: nowrap;
+  width: 127px;
+}
+
+ .strong-department-2 {
+  color: #232323;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 447px;
+  white-space: nowrap;
+  width: 249px;
+}
+
+ .div-item-12 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #e7e7e7;
+  height: 579px;
+  left: 815px;
+  position: absolute;
+  top: 15px;
+  width: 370px;
+}
+
+ .element-jpg-6 {
+  background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/3-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 262px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 350px;
+}
+
+ .heading-link-4 {
+  color: #233645;
+  font-family: "Inter", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  height: 26px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 301px;
+  white-space: nowrap;
+  width: 141px;
+}
+
+ .strong-department-3 {
+  color: #232323;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 447px;
+  white-space: nowrap;
+  width: 267px;
+}
+
+ .span-3 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 10px;
+  height: 20px;
+  left: 935px;
+  position: absolute;
+  top: 1145px;
+  width: 20px;
+}
+
+ .span-4 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 10px;
+  height: 20px;
+  left: 965px;
+  position: absolute;
+  top: 1145px;
+  width: 20px;
+}
