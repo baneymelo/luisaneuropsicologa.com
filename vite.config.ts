@@ -1,7 +1,16 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react-swc';
+import reactRefresh from '@vitejs/plugin-react-refresh';
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), /* reactRefresh() */],
+  server: {
+    port: 3000,
+    watch: {
+      usePolling: true
+    }
+  }
+  
 })

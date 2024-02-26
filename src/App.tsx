@@ -23,27 +23,7 @@ export default () => {
             </div>
           </div>
         </div>
-        <div className="header-nav">
-          <div className="navbar">
-            <div className="overlap-group">
-              <div className="list-item-emergency">EMERGENCY</div>
-              <div className="list-item-strong">+123 456 7890</div>
-            </div>
-            <div className="symbol-4"></div>
-            <div className="link-logo-png" />
-            <div className="list-item-link-home">HOME</div>
-            <div className="symbol-5"></div>
-            <div className="list-item-link-pages">PAGES</div>
-            <div className="symbol-6"></div>
-            <div className="list-item-link">DEPARTMENTS</div>
-            <div className="symbol-7"></div>
-            <div className="list-item-link-2">DOCTORS</div>
-            <div className="symbol-8"></div>
-            <div className="list-item-link-blog">BLOG</div>
-            <div className="symbol-9"></div>
-            <div className="list-item-link-3">CONTACT</div>
-          </div>
-        </div>
+        
         <div className="div-carousel-item">
           <div className="div-box-cell">
             <div className="overlap">
@@ -112,6 +92,7 @@ export default () => {
               Consultation
             </div>
           </div>
+          
         </div>
         <div className="overlap-2">
           <img

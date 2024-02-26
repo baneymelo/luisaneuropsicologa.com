@@ -1,0 +1,247 @@
+.header-nav {
+    background-color: #ffffff;
+    box-shadow: 0px 8px 25px #0000000a;
+    height: 91px;
+    left: 0;
+    position: absolute;
+    top: 61px;
+    width: 1920px;
+  }
+  
+   .navbar {
+    height: 91px;
+    left: 360px;
+    position: relative;
+    width: 1200px;
+  }
+
+  
+
+ .overlap-group {
+    height: 56px;
+    left: 1048px;
+    position: absolute;
+    top: 16px;
+    width: 138px;
+  }
+  
+   .list-item-emergency {
+    color: #666666;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 76px;
+  }
+  
+   .list-item-strong {
+    color: #666666;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 900;
+    height: 30px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 26px;
+    white-space: nowrap;
+    width: 138px;
+  }
+  
+   .symbol-4 {
+    color: #1ebeb6;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 46px;
+    font-weight: 400;
+    height: 46px;
+    left: 987px;
+    letter-spacing: 0;
+    line-height: 46px;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+    width: 46px;
+  }
+  
+   .link-logo-png {
+    background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/link---logo-png@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 50px;
+    left: 15px;
+    position: absolute;
+    top: 20px;
+    width: 165px;
+  }
+  
+   .list-item-link-home {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 352px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 43px;
+  }
+  
+   .symbol-5 {
+    color: #333333;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    left: 400px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 9px;
+  }
+  
+   .list-item-link-pages {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 439px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 47px;
+  }
+  
+   .symbol-6 {
+    color: #333333;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    left: 490px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 9px;
+  }
+  
+   .list-item-link {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 529px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 106px;
+  }
+  
+   .symbol-7 {
+    color: #333333;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    left: 640px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 9px;
+  }
+  
+   .list-item-link-2 {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 679px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 70px;
+  }
+  
+   .symbol-8 {
+    color: #333333;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    left: 754px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 9px;
+  }
+  
+   .list-item-link-blog {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 793px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 39px;
+  }
+  
+   .symbol-9 {
+    color: #333333;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 20px;
+    left: 836px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 9px;
+  }
+  
+   .list-item-link-3 {
+    color: #333333;
+    font-family: "Inter", Helvetica;
+    font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+    left: 875px;
+    letter-spacing: 0.78px;
+    line-height: 20px;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    width: 70px;
+  }
