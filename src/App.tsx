@@ -4,50 +4,8 @@ export default () => {
   return (
     <div className="root">
       <div className="index">
-        <div className="div-top-bar-area">
-          <p className="global-update-on">
-            <span className="text-wrapper">!Global update on Coronavirus disease </span>
-            <span className="span">(COVID-19)</span>
-            <span className="text-wrapper"> Pandemic</span>
-          </p>
-          <div className="div-col-lg">
-            <div className="list">
-              <div className="item-link-online">Online Appoinment</div>
-              <div className="item-link-webmail">WebMail</div>
-              <div className="item" />
-            </div>
-            <div className="div-social">
-              <div className="symbol"></div>
-              <div className="symbol-2"></div>
-              <div className="symbol-3"></div>
-            </div>
-          </div>
-        </div>
         
-        <div className="div-carousel-item">
-          <div className="div-box-cell">
-            <div className="overlap">
-              <div className="after" />
-              <div className="symbol-10"></div>
-              <div className="heading-good">Good Doctor, Healthy Life</div>
-              <p className="heading-meet-the">
-                <span className="text-wrapper-2">
-                  Meet the
-                  <br />
-                </span>
-                <span className="text-wrapper-3">Best Doctors</span>
-              </p>
-              <div className="link">
-                <div className="overlap-group-2">
-                  <div className="i-fas">
-                    <div className="symbol-11"></div>
-                  </div>
-                  <div className="discover-more"> Discover More</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div className="div-col-lg-2">
           <p className="heading-how-to-get">
             How to get a<br />

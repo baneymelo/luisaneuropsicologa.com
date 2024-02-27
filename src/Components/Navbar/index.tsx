@@ -1,12 +1,14 @@
 import { Fragment } from "react"
 import { useIntl } from "react-intl"
 import messages from "../../Messages/messages";
+import {NavbarProps} from "../../types/"
 import "./styles.css"
 
-export default () => {
+export default ({News}: NavbarProps) => {
     const intl = useIntl();
     return (
         <Fragment>
+            <News/>
             <div className="header-nav">
             <div className="navbar">
                 <div className="overlap-group">

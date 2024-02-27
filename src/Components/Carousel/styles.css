@@ -1,0 +1,147 @@
+
+.div-carousel-item {
+    background-image: url(https://cdn.animaapp.com/projects/6098037e357d58703534784c/releases/65d289e8b6ea4ed7b4f2a5d8/img/div-slider-thumb.png);
+    background-size: 100% 100%;
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 152px;
+    width: 1920px;
+  }
+  
+   .div-box-cell {
+    background-color: #ffffff01;
+    box-shadow: 0px 8px 16px #00000026;
+    height: 1080px;
+  }
+  
+   .overlap {
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+  }
+  
+   .after {
+    background-color: #000000;
+    height: 1080px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+   .symbol-10 {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 75px;
+    font-weight: 400;
+    height: 30px;
+    left: 325px;
+    letter-spacing: 0;
+    line-height: 30px;
+    opacity: 0.2;
+    position: absolute;
+    top: 524px;
+    white-space: nowrap;
+    width: 350px;
+  }
+  
+   .heading-good {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    height: 26px;
+    left: 375px;
+    letter-spacing: 0;
+    line-height: 26.4px;
+    position: absolute;
+    top: 382px;
+    white-space: nowrap;
+    width: 272px;
+  }
+  
+   .heading-meet-the {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 80px;
+    font-weight: 400;
+    height: 160px;
+    left: 375px;
+    letter-spacing: 0;
+    line-height: 80px;
+    position: absolute;
+    top: 433px;
+    width: 519px;
+  }
+  
+   .text-wrapper-2 {
+    font-weight: 300;
+  }
+  
+   .text-wrapper-3 {
+    font-weight: 900;
+  }
+  
+   .link {
+    border-radius: 5px;
+    height: 62px;
+    left: 375px;
+    overflow: hidden;
+    position: absolute;
+    top: 635px;
+    width: 210px;
+  }
+  
+   .overlap-group-2 {
+    background: linear-gradient(180deg, rgb(30, 190, 182) 0%, rgb(0, 130, 124) 100%);
+    box-shadow: inset 0px 0px 1px 1px #1ebeb6, 0px 0px 10px #ff880080;
+    height: 60px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 208px;
+  }
+  
+   .i-fas {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+  }
+  
+   .symbol-11 {
+    color: #1ebeb6;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    width: 7px;
+  }
+  
+   .discover-more {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    height: 25px;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    white-space: nowrap;
+    width: 123px;
+  }

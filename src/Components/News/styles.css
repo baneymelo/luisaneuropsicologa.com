@@ -1,0 +1,153 @@
+
+.div-top-bar-area {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #e7e7e7;
+    height: 61px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+   .global-update-on {
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    left: 375px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+    width: 439px;
+  }
+  
+   .text-wrapper {
+    color: #666666;
+    font-weight: 500;
+  }
+  
+   .span {
+    color: #233645;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+   .div-col-lg {
+    height: 30px;
+    left: 960px;
+    position: absolute;
+    top: 15px;
+    width: 600px;
+  }
+  
+   .list {
+    height: 30px;
+    left: 211px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+   .item-link-online {
+    color: #233645;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: right;
+    top: -2px;
+    white-space: nowrap;
+    width: 142px;
+  }
+  
+   .item-link-webmail {
+    color: #233645;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    left: 176px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: right;
+    top: -2px;
+    white-space: nowrap;
+    width: 64px;
+  }
+  
+   .item {
+    border-color: #dddddd;
+    border-left-style: solid;
+    border-left-width: 1px;
+    height: 19px;
+    left: 161px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+  }
+  
+   .div-social {
+    height: 30px;
+    left: 451px;
+    position: absolute;
+    top: 0;
+    width: 134px;
+  }
+  
+   .symbol {
+    color: #233645;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 14.3px;
+    font-weight: 400;
+    height: 15px;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    text-align: right;
+    top: 6px;
+    white-space: nowrap;
+    width: 8px;
+  }
+  
+   .symbol-2 {
+    color: #233645;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 15px;
+    left: 77px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    text-align: right;
+    top: 6px;
+    white-space: nowrap;
+    width: 15px;
+  }
+  
+   .symbol-3 {
+    color: #233645;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 15px;
+    left: 121px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    text-align: right;
+    top: 6px;
+    white-space: nowrap;
+    width: 13px;
+  }
+  
