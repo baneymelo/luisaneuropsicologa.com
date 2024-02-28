@@ -28,7 +28,7 @@ export default ({translations, children}:{ translations: any, children: ReactNod
       <IntlProvider 
         locale={"es-CO"} 
         //defaultLocale={LANGS.DEFAULT}
-        messages={translations["es"]}> //TODO change to 'locale'
+        messages={translations["es"]}> {/* TODO change to 'locale' */}
             {children}
       </IntlProvider>
     );

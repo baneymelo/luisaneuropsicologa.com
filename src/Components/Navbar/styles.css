@@ -14,45 +14,28 @@
     position: relative;
     width: 1200px;
   }
-
-  
-
- .overlap-group {
-    height: 56px;
-    left: 1048px;
-    position: absolute;
-    top: 16px;
-    width: 138px;
-  }
-  
-   .list-item-emergency {
-    color: #666666;
-    font-family: "Inter", Helvetica;
-    font-size: 12px;
-    font-weight: 600;
+  .list {
     height: 30px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 30px;
+    left: 211px;
     position: absolute;
     top: 0;
-    white-space: nowrap;
-    width: 76px;
+    width: 240px;
   }
   
-   .list-item-strong {
-    color: #666666;
+   .item-link-online {
+    color: #233645;
     font-family: "Inter", Helvetica;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 15px;
+    font-weight: 700;
     height: 30px;
     left: 0;
     letter-spacing: 0;
     line-height: 30px;
     position: absolute;
-    top: 26px;
+    text-align: right;
+    top: -2px;
     white-space: nowrap;
-    width: 138px;
+    width: 142px;
   }
   
    .symbol-4 {

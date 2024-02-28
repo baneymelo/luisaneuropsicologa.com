@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import "./styles.css"
 
+
 export default () => {
   return (
     <Fragment>
@@ -11,11 +12,11 @@ export default () => {
             <span className="text-wrapper"> Pandemic</span>
             </p>
             <div className="div-col-lg">
-            <div className="list">
+{/*             <div className="list">
                 <div className="item-link-online">Online Appoinment</div>
                 <div className="item-link-webmail">WebMail</div>
                 <div className="item" />
-            </div>
+            </div> */}
             <div className="div-social">
                 <div className="symbol"></div>
                 <div className="symbol-2"></div>

@@ -6,7 +6,11 @@ const messages = {
         },
         about: {
             id: "navbar.about",
-            defaultMessage: "About"
+            defaultMessage: "Experiencia"
+        },
+        specializations: {
+            id: "navbar.specializations",
+            defaultMessage: "Especialidades"
         },
         blog: {
             id: "navbar.blog",
@@ -14,7 +18,11 @@ const messages = {
         },
         contact: {
             id: "navbar.contact",
-            defaultMessage: "Contact"
+            defaultMessage: "Contacto"
+        },
+        appointment: {
+            id: "navbar.appointment",
+            defaultMessage: "Agendar una cita"
         }
     },
     carousel: {
@@ -29,6 +37,14 @@ const messages = {
         slogan_3: {
             id: "carousel.slogan_3",
             defaultMessage: "Tu bienestar mental es la prioridad, desde la evaluación hasta la transformación"
+        },
+        description: {
+            id: "carousel.description",
+            defaultMessage: "Descubre las herramientas de apoyo ofrecidas"
+        },
+        cta_1: {
+            id: "carousel.cta_1",
+            defaultMessage: "Descubrir más"
         },
     }
 }

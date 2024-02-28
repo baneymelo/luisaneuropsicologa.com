@@ -15,17 +15,17 @@ export default () => {
                 <div className="heading-good">{intl.formatMessage(messages.carousel.slogan_1)}</div>
                 <p className="heading-meet-the">
                     <span className="text-wrapper-2">
-                    Meet the
+                        {intl.formatMessage(messages.carousel.description)}
                     <br />
                     </span>
-                    <span className="text-wrapper-3">Best Doctors</span>
+                    {/* <span className="text-wrapper-3">Best Doctors</span> */}
                 </p>
                 <div className="link">
                     <div className="overlap-group-2">
                     <div className="i-fas">
                         <div className="symbol-11"></div>
                     </div>
-                    <div className="discover-more"> Discover More</div>
+                    <div className="discover-more">{intl.formatMessage(messages.carousel.cta_1)}</div>
                     </div>
                 </div>
                 </div>
