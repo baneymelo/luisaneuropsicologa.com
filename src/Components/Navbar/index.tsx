@@ -1,14 +1,18 @@
 import { Fragment } from "react"
 import { useIntl } from "react-intl"
+import { Col, Row } from 'antd';
 import messages from "../../Messages/messages";
 import {NavbarProps} from "../../types/"
-import "./styles.css"
+//import "./styles.css"
+import Logo from './Logo'
+import Appointment from './Appointment'
+import Menu from './Menu'
 
-export default ({News}: NavbarProps) => {
-    const intl = useIntl();
+
+const Navbar = ({News, children}: NavbarProps) => {
     return (
         <Fragment>
-            <News/>
+            {/* <News/>
             <div className="header-nav">
             <div className="navbar">
             <div className="list">
@@ -29,7 +33,20 @@ export default ({News}: NavbarProps) => {
             <div className="symbol-9"></div>
             <div className="list-item-link-3">{intl.formatMessage(messages.navBar.contact)}</div>
             </div>
-            </div>
+            </div> 
+            <News/>*/}
+            <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+                {children}
+            </Row>
         </Fragment>
     )
 }
+
+
+Navbar.Logo = Logo;
+Navbar.Menu = Menu;
+Navbar.Appointment = Appointment;
+
+
+
+export default Navbar;

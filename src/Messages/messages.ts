@@ -9,8 +9,38 @@ const messages = {
             defaultMessage: "Experiencia"
         },
         specializations: {
-            id: "navbar.specializations",
-            defaultMessage: "Especialidades"
+            label: {
+                id: "navbar.specializations",
+                defaultMessage: "Especialidades"
+            },
+            psychology: {
+                label: {
+                    id: "navbar.specializations.psychology",
+                    defaultMessage: "Psicología"
+                },
+                s1: {
+                    id: "navbar.specializations.psychology.s1",
+                    defaultMessage: "s1"
+                },
+                s2: {
+                    id: "navbar.specializations.psychology.s2",
+                    defaultMessage: "s2"
+                }
+            },
+            neuropsychology: {
+                label: {
+                    id: "navbar.specializations.neuropsychology.label",
+                    defaultMessage: "Neuropsicología"
+                },
+                s1:{
+                    id: "navbar.specializations.neuropsychology.s1",
+                    defaultMessage: "s1"
+                },
+                s2: {
+                    id: "navbar.specializations.neuropsychology.s1",
+                    defaultMessage: "s2"
+                }
+            }
         },
         blog: {
             id: "navbar.blog",

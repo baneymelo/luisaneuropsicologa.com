@@ -5,10 +5,18 @@ import News from "./Components/News";
 import Carousel from "./Components/Carousel";
 
 export default () => {
+
+    const DefaultNavBar = () => (
+        <Navbar News={News}>
+            <Navbar.Logo/>
+            <Navbar.Menu/>
+            <Navbar.Appointment/>
+        </Navbar>
+    )
     
     const DefaultApp = () => (
         <IntlProvider translations={translations}>
-            <Navbar News={News}/>
+            <DefaultNavBar/>
             <Carousel/>
         </IntlProvider>
     )
