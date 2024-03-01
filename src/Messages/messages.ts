@@ -10,12 +10,12 @@ const messages = {
         },
         specializations: {
             label: {
-                id: "navbar.specializations",
+                id: "navbar.specializations.label",
                 defaultMessage: "Especialidades"
             },
             psychology: {
                 label: {
-                    id: "navbar.specializations.psychology",
+                    id: "navbar.specializations.psychology.label",
                     defaultMessage: "Psicología"
                 },
                 s1: {
@@ -40,6 +40,20 @@ const messages = {
                     id: "navbar.specializations.neuropsychology.s1",
                     defaultMessage: "s2"
                 }
+            },
+            ages: {
+                child: {
+                    id: "navbar.specializations.ages.child",
+                    defaultMessage: "Niños"
+                },
+                young: {
+                    id: "navbar.specializations.ages.young",
+                    defaultMessage: "Jóvenes"
+                },
+                adult: {
+                    id: "navbar.specializations.ages.adult",
+                    defaultMessage: "Adultos"
+                },
             }
         },
         blog: {
@@ -51,8 +65,18 @@ const messages = {
             defaultMessage: "Contacto"
         },
         appointment: {
-            id: "navbar.appointment",
-            defaultMessage: "Agendar una cita"
+            label: {
+                id: "navbar.appointment.label",
+                defaultMessage: "Agenda una cita"
+            },
+            new: {
+                id: "navbar.appointment.new",
+                defaultMessage: "Primera vez"
+            },
+            patient: {
+                id: "navbar.appointment.patient",
+                defaultMessage: "Soy Paciente"
+            }
         }
     },
     carousel: {

@@ -1,24 +1,53 @@
-import IntlProvider from "./Context/Intl/IntlProvider"
+import IntlProvider from "./Components/Context/Intl/IntlProvider"
 import Navbar from "./Components/Navbar";
 import translations from "./translations";
 import News from "./Components/News";
-import Carousel from "./Components/Carousel";
+import {ChildrenProp} from "@/types";
+import PageContent from "./Components/PageContent";
+import {AppProvider} from "./Components/Context/App";
+
 
 export default () => {
 
-    const DefaultNavBar = () => (
-        <Navbar News={News}>
-            <Navbar.Logo/>
-            <Navbar.Menu/>
-            <Navbar.Appointment/>
-        </Navbar>
+    const DefaultProviders = ({children}: ChildrenProp) => (
+        <AppProvider>
+            <IntlProvider
+                translations={translations}>
+                {children}
+            </IntlProvider>
+        </AppProvider>
     )
+
+    const DefaultNavBar = () => (
+        <Navbar/>
+    );
+
+    {/*
+    const DefaultContent = () => (
+        <Content>
+            <Content.Carousel/>
+            <Content.About/>
+            <Content.Specializations>
+                <Specializations>
+                    <Specializations.Psychology>
+                        <Ages.Child/>
+                    </Specializations.Psychology>
+                </Specializations>
+            </Content.Specializations>
+        </Content>
+    )
+    */}
+
     
     const DefaultApp = () => (
-        <IntlProvider translations={translations}>
-            <DefaultNavBar/>
-            <Carousel/>
-        </IntlProvider>
+        <DefaultProviders>
+                <DefaultNavBar/>
+                {/*<DefaultContent/>
+
+                <DefaultWidget/>
+                <DefaultFooter/>
+               {/* <Carousel/>*/}
+        </DefaultProviders>
     )
     return <DefaultApp/>
 }

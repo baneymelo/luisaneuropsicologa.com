@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ReactNode } from "react";
 import { IntlProvider } from "react-intl";
-import { LANGS } from "../../enums/enums";
+import { LANGS } from "../../../enums/enums.ts";
 
 
 
