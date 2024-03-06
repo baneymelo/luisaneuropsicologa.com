@@ -1,5 +1,8 @@
 @media (max-width: 576px) {
-    .icon-div {
-
+    .ant-menu-light.ant-menu-root.ant-menu-inline {
+        border-inline-end: none
+    }
+    .ant-drawer-content-wrapper {
+        height: 420px !important;
     }
 }

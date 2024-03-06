@@ -63,6 +63,7 @@ const Navbar = ({children}: NavbarProps) => {
                 width={"100%"}
                 onClose={onClose}
                 open={open}
+                //size={"large"}
                 //extra={}
             >
                 <Menu/>

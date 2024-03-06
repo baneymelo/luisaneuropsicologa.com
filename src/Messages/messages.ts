@@ -8,50 +8,50 @@ const messages = {
             id: "navbar.about",
             defaultMessage: "Experiencia"
         },
-        specializations: {
+        services: {
             label: {
-                id: "navbar.specializations.label",
-                defaultMessage: "Especialidades"
+                id: "navbar.services.label",
+                defaultMessage: "Evaluaciones"
             },
             psychology: {
                 label: {
-                    id: "navbar.specializations.psychology.label",
+                    id: "navbar.services.psychology.label",
                     defaultMessage: "Psicología"
                 },
                 s1: {
-                    id: "navbar.specializations.psychology.s1",
-                    defaultMessage: "s1"
+                    id: "navbar.services.psychology.s1",
+                    defaultMessage: "Evaluación 1"
                 },
                 s2: {
-                    id: "navbar.specializations.psychology.s2",
-                    defaultMessage: "s2"
+                    id: "navbar.services.psychology.s2",
+                    defaultMessage: "Evaluación 2"
                 }
             },
             neuropsychology: {
                 label: {
-                    id: "navbar.specializations.neuropsychology.label",
+                    id: "navbar.services.neuropsychology.label",
                     defaultMessage: "Neuropsicología"
                 },
                 s1:{
-                    id: "navbar.specializations.neuropsychology.s1",
-                    defaultMessage: "s1"
+                    id: "navbar.services.neuropsychology.s1",
+                    defaultMessage: "Evaluación 1"
                 },
                 s2: {
-                    id: "navbar.specializations.neuropsychology.s1",
-                    defaultMessage: "s2"
+                    id: "navbar.services.neuropsychology.s1",
+                    defaultMessage: "Evaluación 2"
                 }
             },
             ages: {
                 child: {
-                    id: "navbar.specializations.ages.child",
+                    id: "navbar.services.ages.child",
                     defaultMessage: "Niños"
                 },
                 young: {
-                    id: "navbar.specializations.ages.young",
+                    id: "navbar.services.ages.young",
                     defaultMessage: "Jóvenes"
                 },
                 adult: {
-                    id: "navbar.specializations.ages.adult",
+                    id: "navbar.services.ages.adult",
                     defaultMessage: "Adultos"
                 },
             }

@@ -5,6 +5,8 @@ import {Col, Menu, Row} from 'antd';
 import HomeFilled from "@ant-design/icons/HomeFilled";
 import {Icon} from "@iconify-icon/react";
 import "./Menu.css"
+import messages from "../../../Messages/messages.ts";
+import {useIntl} from "react-intl";
 
 const items: MenuProps['items'] = [
     {
@@ -64,53 +66,52 @@ const items: MenuProps['items'] = [
 ];
 
 export default () => {
-    const [current, setCurrent] = useState('home');
+    const intl = useIntl();
+    const [key, setKey] = useState('home');
 
     const onClick: MenuProps['onClick'] = (e) => {
         console.log('click ', e);
-        setCurrent(e.key);
+        setKey(e.key);
     };
 
     return <Menu
         onClick={onClick}
-        selectedKeys={[current]}
+        selectedKeys={[key]}
         mode="inline"
         //items={items}
     >
         <Menu.Item key={"home"} icon={<Icon icon={"carbon:home"} />}>
-            Home
+            {intl.formatMessage(messages.navBar.home)}
         </Menu.Item>
         <Menu.Item key={"experience"} icon={<Icon icon={"mdi:university"} />}>
-            Experiencia
+            {intl.formatMessage(messages.navBar.about)}
         </Menu.Item>
         <Menu.SubMenu
-            key={"specializations"}
+            key={"services"}
             icon={<Icon icon={"ic:baseline-psychology"} />}
-            title={"Especializaciones - Consultas"}>
-            <Menu.ItemGroup key={"p"} title="Psicologia">
-                <Menu.SubMenu
-                    key={"p-child"}
-                    //icon={<Icon icon={"ic:baseline-psychology"} />}
-                    title={"Niños"}>
-                    <Menu.Item>Tratamiento 1</Menu.Item>
-                    <Menu.Item>Tratamiento 1</Menu.Item>
-                    <Menu.Item>Tratamiento 1</Menu.Item>
-                    <Menu.Item>Tratamiento 1</Menu.Item>
-                </Menu.SubMenu>
+            title={intl.formatMessage(messages.navBar.services.label)}>
+            <Menu.ItemGroup key={"n"} title={intl.formatMessage(messages.navBar.services.neuropsychology.label)}>
+                <Menu.Item key={"n-1"} >{intl.formatMessage(messages.navBar.services.psychology.s1)}</Menu.Item>
+                <Menu.Item key={"n-2"} >{intl.formatMessage(messages.navBar.services.psychology.s1)}</Menu.Item>
+            </Menu.ItemGroup>
+            <Menu.ItemGroup key={"p"} title={intl.formatMessage(messages.navBar.services.psychology.label)}>
+                <Menu.Item key={"p-1"} >{intl.formatMessage(messages.navBar.services.psychology.s1)}</Menu.Item>
+                <Menu.Item key={"p-2"} >{intl.formatMessage(messages.navBar.services.psychology.s1)}</Menu.Item>
             </Menu.ItemGroup>
         </Menu.SubMenu>
+        <Menu.Item key={"blog"} icon={<Icon icon={"solar:notes-bold"} />}>
+            {intl.formatMessage(messages.navBar.blog)}
+        </Menu.Item>
+        <Menu.Item key={"contact"} icon={<Icon icon={"mdi:contact"} />}>
+            {intl.formatMessage(messages.navBar.contact)}
+        </Menu.Item>
+        <Menu.SubMenu
+            key={"appointment"}
+            icon={<Icon icon={"line-md:calendar"} />}
+            title={intl.formatMessage(messages.navBar.appointment.label)}
+        >
+            <Menu.Item key={"a-new"} >{intl.formatMessage(messages.navBar.appointment.new)}</Menu.Item>
+            <Menu.Item key={"a-patient"} >{intl.formatMessage(messages.navBar.appointment.patient)}</Menu.Item>
+        </Menu.SubMenu>
     </Menu>
-
-
 }
-
-const MenuItemContent = ({Icon, label}: {Icon: ReactNode, label: string}) => (
-    <Row align={"middle"}>
-        <Col xs={2} align="middle"  >
-                {Icon}
-        </Col>
-        <Col xs={22}>
-            <span>{label}</span>
-        </Col>
-    </Row>
-)
