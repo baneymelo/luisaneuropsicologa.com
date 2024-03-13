@@ -92,9 +92,17 @@ const messages = {
             id: "carousel.slogan_3",
             defaultMessage: "Tu bienestar mental es la prioridad, desde la evaluación hasta la transformación"
         },
-        description: {
-            id: "carousel.description",
-            defaultMessage: "Descubre las herramientas de apoyo ofrecidas"
+        description_1: {
+            id: "carousel.description.1",
+            defaultMessage: "Conoce las herramientas de apoyo ofrecidas"
+        },
+        description_2: {
+            id: "carousel.description.2",
+            defaultMessage: "Conoce el proceso de las evaluaciones"
+        },
+        description_3: {
+            id: "carousel.description.3",
+            defaultMessage: "Conoce los procesos de rehabilitación"
         },
         cta_1: {
             id: "carousel.cta_1",

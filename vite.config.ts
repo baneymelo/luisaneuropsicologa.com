@@ -14,6 +14,7 @@ export default defineConfig({
     alias: {
       "@/Components": "/src/Components/index.d.ts",
       "@/types": "/src/types/index.ts",
+      "@/assets": "/src/assets",
     }
   },
   

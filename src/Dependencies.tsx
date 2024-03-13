@@ -5,6 +5,8 @@ import News from "./Components/News";
 import {ChildrenProp} from "@/types";
 import PageContent from "./Components/PageContent";
 import {AppProvider} from "./Components/Context/App";
+import {Carousel} from "@/Components";
+import {Layout} from "antd";
 
 
 export default () => {
@@ -19,7 +21,14 @@ export default () => {
     )
 
     const DefaultNavBar = () => (
-        <Navbar/>
+        <Layout>
+            <Layout.Header>
+                <Navbar/>
+            </Layout.Header>
+            <Layout.Content>
+                <Carousel/>
+            </Layout.Content>
+        </Layout>
     );
 
     {/*

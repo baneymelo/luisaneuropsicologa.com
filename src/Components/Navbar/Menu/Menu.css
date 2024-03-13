@@ -5,4 +5,10 @@
     .ant-drawer-content-wrapper {
         height: 420px !important;
     }
+    .appointment-submenu .ant-menu-submenu-title {
+        background-color: #16ffc1 !important;
+    }
+    .appointment-submenu .appointment-submenu-child {
+        background-color: rgba(22, 255, 193, 0.6) !important;
+    }
 }
